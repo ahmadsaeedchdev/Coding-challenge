@@ -30,3 +30,8 @@ email : ahmad.saeed@gmail.com
 password : 12345678
 ```
 
+6- For Email Testing
+```sh
+I have used maitrap for email testing. Link : https://mailtrap.io/
+```
+
