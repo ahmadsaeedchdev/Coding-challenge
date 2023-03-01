@@ -35,3 +35,7 @@ password : 12345678
 I have used maitrap for email testing. Link : https://mailtrap.io/
 ```
 
+7- You can fine postman collection in root of project 
+```sh
+Name : Foodics.postman_collection.json
+```
