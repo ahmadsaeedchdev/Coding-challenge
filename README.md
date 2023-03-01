@@ -14,7 +14,7 @@ composer install
 php artisan migrate
 ```
 
-3- For Data run these 
+3- For data run these 
 ```sh
 php artisan db:seed
 ```
@@ -30,8 +30,12 @@ email : ahmad.saeed@gmail.com
 password : 12345678
 ```
 
-6- For Email Testing
+6- For email testing
 ```sh
 I have used maitrap for email testing. Link : https://mailtrap.io/
 ```
 
+7- You can fine postman collection in root of project 
+```sh
+Name : Foodics.postman_collection.json
+```
