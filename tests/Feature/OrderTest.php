@@ -104,6 +104,8 @@ class OrderTest extends TestCase
         $response = $this->postJson($this->orderUrl, $payload);
 
         $response->assertBadRequest();
+
+        $this->assertNull(Order::first());
     }
 
     public function test_ifIngredientBelow50_then_fieldIsAlertUpdateInDatabase()

@@ -58,6 +58,7 @@ class Ingredient extends Model
                 __function__,
                 $exception->getMessage()
             ));
+            throw $exception;
         }
     }
 

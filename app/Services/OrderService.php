@@ -47,6 +47,7 @@ class OrderService
                 __function__,
                 $exception->getMessage()
             ));
+            throw $exception;
         }
     }
 
@@ -70,6 +71,7 @@ class OrderService
                 __function__,
                 $exception->getMessage()
             ));
+            throw $exception;
         }
     }
 }
