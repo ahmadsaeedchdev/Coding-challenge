@@ -39,6 +39,7 @@ class Order extends Model
                 __function__,
                 $exception->getMessage()
             ));
+            throw $exception;
         }
     }
 

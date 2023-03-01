@@ -59,6 +59,7 @@ class User extends Authenticatable
                 __function__,
                 $exception->getMessage()
             ));
+            throw $exception;
         }
     }
 }
